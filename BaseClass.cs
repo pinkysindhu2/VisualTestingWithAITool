@@ -52,7 +52,7 @@ namespace AutomateUIApplitools
             {
                 /*This sets the Applitools API key in an environmental variable
                  * conversely, you can also set the key like this
-                 * ApiKey = "vDPsWHm9wt7dIAvfQRH79HF105is4Lhc9710rH1xW7BUl0146";
+                 * ApiKey = "XXXXXXXXXXXXXXXXXXXXX";
                  */
                 ApiKey = Environment.GetEnvironmentVariable("APPLITOOLS_API_KEY",
                     EnvironmentVariableTarget.User)
